@@ -1,0 +1,14 @@
+total_points = int(input("Total points possible: "))
+achieved = int(input("Points achieved: "))
+decimal = achieved / total_points
+fraction = decimal *100
+if fraction <= 50:
+    print("Percentage " + str(fraction) + "% " "Grade = F ")
+if fraction >50 and fraction <=60:
+    print("Percentage " + str(fraction) + "% " "Grade = D ")
+if fraction >60 and fraction <=75:
+    print("Percentage " + str(fraction) + "% " "Grade = C ")
+if fraction >75 and fraction <=88:
+    print("Percentage " + str(fraction) + "% " "Grade = B ")
+if fraction >88 and fraction <=100:
+    print("Percentage " + str(fraction) + "% " "Grade = A ")
